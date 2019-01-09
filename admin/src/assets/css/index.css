@@ -1,0 +1,22 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.flexBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center
+}
+.w350{
+    width: 350px;
+}
+.flexCenter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
