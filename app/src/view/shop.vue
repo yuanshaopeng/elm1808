@@ -66,6 +66,8 @@ export default {
         height: 0.8rem;
         position: sticky;
         top:0;
+        background: white;
+        z-index: 2;
     }
     .h2000{
         height: 2000px;

@@ -22,5 +22,12 @@ export default {
             method:"get",
             url:"/api/shop/"+id,
         })
+    },
+    //通过id获取店铺菜单
+    getGoodsOpt(id){
+        return axios({
+            method:"get",
+            url:"/api/shopGoods/"+id,
+        })
     }
 }

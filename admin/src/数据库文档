@@ -52,3 +52,18 @@ shopType:"店铺类别",
 shopTypeID:"店铺类别id",
 shopOpt:"店铺介绍",
 shopRate:"店铺星级",
+
+商品类别集合   goodsType
+_id:"",
+typeName:"类别名称",
+shopID:"店铺id"
+
+商品集合   goodsList
+_id:"",
+goodsName:"商品名称",
+goodsPrice:"商品单价",
+goodsLogo:"商品图片",
+goodsReta:"商品评分",
+typeID:"商品类别id",
+shopID:"店铺id",
+shopName:"店铺名称"

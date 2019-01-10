@@ -407,4 +407,46 @@ router.post("/addShop",(req,res)=>{
     })
 })
 
+//获取店铺
+router.get("/shop/:skip/:limit",(req,res)=>{
+    let skip = req.params.skip*1;
+    let limit = req.params.limit*1;
+    db.count("shoplist",{},(err,count)=>{
+        db.find("shoplist",{query:{},skip,limit},(err,data)=>{
+            if(err) throw err;
+            res.send({
+                count,data
+            });
+        })
+    })
+    
+})
+
+//添加类别
+router.post("/goodsType",(req,res)=>{
+    let shopID = req.body.shopID;
+    let typeName = req.body.typeName;
+    db.insertOne("goodsType",{shopID,typeName},(err,data)=>{
+        if (err) throw err;
+        res.send(data);
+    })
+})
+//获取类别
+router.get("/goodsType",(req,res)=>{
+    db.find("goodsType",{query:{shopID:req.query.shopID}},(err,data)=>{
+        if (err) throw err;
+        res.send(data);
+    })
+})
+
+//提交商品
+router.post("/goods",(req,res)=>{
+    let data = req.body;
+    delete data["admin_ID"];
+    delete data["admin_jsID"];
+    console.log(data);
+    db.insertOne("goodsList",data,(err,data2)=>{
+        res.send(data2);
+    })
+})
 module.exports = router;

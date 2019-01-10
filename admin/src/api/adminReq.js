@@ -180,6 +180,36 @@ export default {
             url:"/admin/addShop",
             data:obj
         })
+    },
+    getShop(obj){
+        return axios({
+            method:"get",
+            url:"/admin/shop/"+obj.skip+"/"+obj.limit,
+            
+        })
+    },
+    addGoodsType(obj){
+        return axios({
+            method:"post",
+            url:"/admin/goodsType",
+            data:obj
+        })
+    },
+    //获取店铺商品类别
+    getGoodsType(id){
+        return axios({
+            method:"get",
+            url:"/admin/goodsType",
+            params:{shopID:id}
+        })
+    },
+    //添加商品
+    addGoods(obj){
+        return axios({
+            method:"post",
+            url:"/admin/goods",
+            data:obj
+        })
     }
 }
 

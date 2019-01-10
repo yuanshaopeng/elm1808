@@ -43,5 +43,32 @@ router.get("/shop/:id",(req,res)=>{
         res.send(data);
     })
 })
+//获取店铺商品类别及商品
+router.get("/shopGoods/:id",(req,res)=>{
+    //1、通过店铺id  获取店铺商品类别数据；
+    //[{_id:"类别标示","typeName":"类别名称","shopID":"店铺id"}]
+    //映射为一个请求商品大promise数组；
+    //Promise.All处理;
+    let shopID = req.params.id;
+    db.find("goodsType",{query:{shopID}},(err,data)=>{
+        let resultArr = data.slice(0);
+        let arr = data.map((item,index)=>{
+            console.log(typeof item._id);
+            return new Promise((resolve,reject)=>{
+                db.find("goodsList",{query:{typeID:item._id.toString()}},(err,data2)=>{
+                    resolve(data2);
+                })
+            })
+        })
+        Promise.all(arr)
+        .then(data3=>{
+            for (let i = 0; i < resultArr.length; i++) {
+                resultArr[i].goods = data3[i];
+            }
+            res.send(resultArr);
+        })
+    })
+
+})
 
 module.exports = router;
