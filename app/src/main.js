@@ -20,7 +20,7 @@ Vue.use(ElementUI);
 Vue.prototype.$swiper = Swiper;
 Vue.prototype.$http = req;
 Vue.config.productionTip = false;
-
+console.log(document.documentElement.style.fontSize)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

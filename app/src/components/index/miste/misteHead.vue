@@ -3,7 +3,8 @@
         <span>北京吉利大学</span>
     </header>
 </template>
-<style>
+
+<style scoped>
     header{
        height: 0.7rem;
        padding: 10px 15px 0px 15px;

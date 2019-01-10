@@ -14,5 +14,13 @@ export default {
             url:"/api/getShop",
             params:obj
         })
+    },
+    //通过id获取店铺
+    getShopByID(id){
+        console.log("run",id);
+        return axios({
+            method:"get",
+            url:"/api/shop/"+id,
+        })
     }
 }
