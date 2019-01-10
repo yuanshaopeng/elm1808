@@ -36,4 +36,12 @@ router.get("/getShop",(req,res)=>{
         res.send(data);
     })
 })
+//通过id获取单个店铺
+router.get("/shop/:id",(req,res)=>{
+    let id = req.params.id;
+    db.findById("shoplist",id,(err,data)=>{
+        res.send(data);
+    })
+})
+
 module.exports = router;

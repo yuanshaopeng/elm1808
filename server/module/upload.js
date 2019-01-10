@@ -25,50 +25,62 @@ module.exports = {
 					let file = files.file;
 					//获取上传后的文件路径
 					let path = file.path;
+					console.log(1111111,path)
 					let name = file.name;
 					//文件后缀正则表达式
 					let reg = /\.[a-z]+$/;
 					//获取扩展名
 					let ext = path.match(reg)[0];
-					if(ext == ".jpg" || ext == ".png"){
-						fs.readdir("./upload",(err,data)=>{
-							if(data.indexOf(name) == -1){
-								fs.rename(path,"./upload/"+name,(err)=>{
-									if(err){
-										callback({
-											status:"-5",
-											code:"文件重命名发生错误"
-										},null)
-									}else{
-										callback(null,{
-											status:"1",
-											code:"上传成功",
-											files:{
-												url:"http://localhost:3000/upload/"+name,
-												name:name,
-												size:file.size,
-												ext:ext,
-												opt:opt
-											}
-										})
-									}
-								})
-							}else{
-								fs.unlink(path,(err)=>{
-									if(err){
-										callback({
-											status:"-6",
-											code:"文件删除发生错误"
-										},null)
-									}else{
-										callback({
-											status:"-2",
-											code:"文件重复上传"
-										},null)
-									}
-								})
+					if(ext == ".jpg" || ext == ".png"|| ext == ".jpeg"){
+						callback(null,{
+							status:"1",
+							code:"上传成功",
+							files:{
+								url:"http://localhost:3000/"+path,
+								name:name,
+								size:file.size,
+								ext:ext,
+								opt:opt
 							}
 						})
+						// fs.readdir("./upload",(err,data)=>{
+							// if(data.indexOf(name) == -1){
+							// 	fs.rename(path,"./upload/"+name,(err)=>{
+							// 		if(err){
+							// 			callback({
+							// 				status:"-5",
+							// 				code:"文件重命名发生错误"
+							// 			},null)
+							// 		}else{
+							// 			callback(null,{
+							// 				status:"1",
+							// 				code:"上传成功",
+							// 				files:{
+							// 					url:"http://localhost:3000/upload/"+name,
+							// 					name:name,
+							// 					size:file.size,
+							// 					ext:ext,
+							// 					opt:opt
+							// 				}
+							// 			})
+							// 		}
+							// 	})
+							// }else{
+							// 	fs.unlink(path,(err)=>{
+							// 		if(err){
+							// 			callback({
+							// 				status:"-6",
+							// 				code:"文件删除发生错误"
+							// 			},null)
+							// 		}else{
+							// 			callback({
+							// 				status:"-2",
+							// 				code:"文件重复上传"
+							// 			},null)
+							// 		}
+							// 	})
+							// }
+						// })
 						
 						
 					}else{
