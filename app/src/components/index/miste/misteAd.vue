@@ -1,6 +1,7 @@
 <template>
     <div>
         广告
+        {{$store.state.num}}
     </div>
 </template>
 <style scoped>

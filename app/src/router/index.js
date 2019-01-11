@@ -7,6 +7,7 @@ import order from "@/view/index/order";
 import profiles from "@/view/index/profiles";
 import tologin from "@/view/index/tologin";
 import shop from "@/view/shop";
+import vuexLearn from "@/view/vuexLearn";
 Vue.use(Router)
 
 export default new Router({
@@ -60,6 +61,13 @@ export default new Router({
         isLogin:false
       },
       component:shop
+    },{
+      path:"/vuex",
+      name:"vuex",
+      meta:{
+        isLogin:false
+      },
+      component:vuexLearn
     }
   ]
 })

@@ -1,7 +1,7 @@
 <template>
     <div v-if="shopOpt" class="shop">
         <shop-head :shop="shopOpt"></shop-head>
-        <el-button-group>
+        <el-button-group ref="btngroup">
             <el-button type="text" @click="chooseComp('shopMenu')">菜单</el-button>
             <el-button type="text" @click="chooseComp('shopPl')">评论</el-button>
             <el-button type="text" @click="chooseComp('shopSelf')">商家</el-button>

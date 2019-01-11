@@ -16,6 +16,8 @@ import req from "./api/req.js";
 //引入elementUI  及样式表
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+//引入vuex仓库；
+import store from "./store";
 Vue.use(ElementUI);
 Vue.prototype.$swiper = Swiper;
 Vue.prototype.$http = req;
@@ -26,5 +28,6 @@ new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  store
 })
