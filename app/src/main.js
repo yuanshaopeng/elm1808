@@ -18,6 +18,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 //引入vuex仓库；
 import store from "./store";
+// import store from "./store/store2";
 Vue.use(ElementUI);
 Vue.prototype.$swiper = Swiper;
 Vue.prototype.$http = req;

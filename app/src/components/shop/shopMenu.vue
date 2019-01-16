@@ -3,20 +3,35 @@
         <!-- 菜单类别 -->
         <div class="left" ref="left">
             <ul>
-                <li v-for="(item,index) in list" :class="currentIndex==index?'active':''" @click="scrollto(index)" :key="index">
-                    <span>{{item.typeName}}</span>
+                <li v-for="(item,index) in shopList" :class="currentIndex==index?'active':''" @click="scrollto(index)" :key="index">
+                    <div class="typeItem">
+
+                        <el-badge :value="typeCount[index]" v-if="typeCount[index]>0" class="item">
+                            <span>{{item.typeName}}</span>
+                        </el-badge>
+                        <span v-else>{{item.typeName}}</span>
+                    </div>
+                    
                 </li>
             </ul>
         </div>
         <div class="right" ref="right">
             <ul>
-                <li v-for="(item,index) in list" :key="index" >
-                    <h4 ref="titles">{{item.typeName}}</h4>
+                <li v-for="(item,index) in shopList" :key="index" >
+                    <h4 class="typeTitles" ref="titles">{{item.typeName}}</h4>
                     <ul>
                         <li v-for="(value,key) in item.goods" :key="key" class="goodsItem">
                             <img class="goodsLogo" :src="value.goodsLogo" alt="">
-                            <h4>{{value.goodsName}}</h4>
-                            <span>{{value.goodsPrice}}</span>
+                            <div>
+                                <h4>{{value.goodsName}}</h4>
+                                <span>{{value.goodsPrice}}</span>
+                                <el-row>
+                                <el-button type="primary" v-if="value.count>0" @click="cutCount(value,index,key)" size="mini" circle>-</el-button>
+                                <span v-if="value.count>0">{{value.count}}</span>
+
+                                <el-button type="primary" size="mini" circle @click="addCount(value,index,key)">+</el-button>  
+                                </el-row>
+                            </div>
                         </li>
                     </ul>
                 </li>
@@ -26,6 +41,7 @@
 </template>
 <script>
 import BScroll from "better-scroll";
+import {mapActions,mapState,mapGetters,mapMutations} from "vuex";
 export default {
     data() {
         return {
@@ -36,15 +52,52 @@ export default {
             heightArr:[]
         }
     },
+    computed:{
+        ...mapState(["shopList"]),
+        ...mapGetters(["typeCount"]), 
+    },
     methods:{
+        ...mapMutations(["changeCount"]),
         scrollto(index){
             this.currentIndex = index;
             let h = this.heightArr[index];
             this.rightBs.scrollTo(0,-h,200);
-        }
+        },
+        addCount(value,index1,index2){
+            let count = value.count;
+            this.changeCount({index1,index2,count:count*1+1});
+            this.$http.addOrder({
+                userID:"5c3e7feadc016a05cfb419cf",
+                shopID:this.$route.params.id,
+                goodsID:value._id,
+                typeID:value.typeID,
+                count:value.count
+            }).then(res=>{
+                // this.getShopOpt(this.$route.params.id)
+                console.log(res);
+            })
+        },
+        cutCount(value,index1,index2){
+            let count = value.count;
+            this.changeCount({index1,index2,count:count*1-1});
+            // console.log(1111);
+            this.$http.addOrder({
+                userID:"5c3e7feadc016a05cfb419cf",
+                shopID:this.$route.params.id,
+                goodsID:value._id,
+                typeID:value.typeID,
+                count:value.count
+            }).then(res=>{
+                // this.getShopOpt(this.$route.params.id)
+                console.log(res)
+            })
+        },
+        ...mapActions(["getShopOpt"])
     },
     watch:{
-        list(){
+        shopList(){
+
+            // alert("run")
             this.$nextTick(()=>{
                 let that = this;
                 window.onscroll = function(){
@@ -68,6 +121,8 @@ export default {
                 })
                 this.rightBs = new BScroll(this.$refs.right,{
                     probeType:2,
+                    click:true,
+                    tap:true,
                     bounce: {
                         top: false,
                         bottom: false,
@@ -115,10 +170,7 @@ export default {
     },
     mounted(){
         console.log(this.$route.params.id);
-        this.$http.getGoodsOpt(this.$route.params.id).then(res=>{
-            console.log(res);
-            this.list = res.data;
-        })
+        this.getShopOpt(this.$route.params.id)
         
     }
 }
@@ -136,7 +188,7 @@ export default {
             height: 100%;
             overflow: hidden;
         
-            ul li span{
+            ul li .typeItem{
                 display: inline-block;
                 width: 1.24rem;
                 padding: 17.5px 7.5px;
@@ -147,16 +199,22 @@ export default {
             overflow: hidden;
             width: 5.76rem;
             height: 100%;
-            background: chartreuse;
+            // background: chartreuse;
             position: relative;
             .goodsItem{
                 height: 2.3rem;
+                display: flex;
+                .goodsLogo{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+            }
+            .typeTitles{
+                height: 0.58rem;
             }
         }
     }
-    .goodsLogo{
-        width: 1.5rem;
-    }
+    
     .left .active{
         background: chartreuse;
     }

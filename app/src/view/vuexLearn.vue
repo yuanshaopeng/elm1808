@@ -8,6 +8,7 @@
             {{num}}
             <!-- {{$store}} -->
             {{get2}}
+            <!-- {{a_num}} -->
         </p>
     </div>
 </template>
@@ -21,6 +22,9 @@ export default {
     },
     computed: {
         ...mapState(["num","count"]),
+        // ...mapState("some/nested/module/a",{
+        //     a_num:state=>state.some.nested.module.a
+        // }),
         ...mapGetters(["get2"])
     },
     methods:{
@@ -33,7 +37,7 @@ export default {
         }
     },
     mounted(){
-        console.log(this);
+        console.log(this.$store);
         // 派发mutatuons中的方法
         // this.$store.commit("NUM",{a:10,b:30})
         this.$store.commit("COUNT",3)
