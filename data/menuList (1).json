@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "5c2eada7423d462d7ee79486",
+    "menu_name": "用户管理",
+    "children": [
+      {
+        "menu_name": "普通用户",
+        "menu_url": "/userList"
+      },
+      {
+        "menu_name": "vip用户",
+        "menu_url": "/vipList"
+      }
+    ]
+  },
+  {
+    "_id": "5c2eae1e423d462d7ee79487",
+    "menu_name": "权限管理",
+    "children": [
+      {
+        "menu_name": "用户权限管理",
+        "menu_url": "/userPower"
+      },
+      {
+        "menu_name": "管理员权限",
+        "menu_url": "/adminPower"
+      }
+    ]
+  },
+  {
+    "_id": "5c2eaed9423d462d7ee79488",
+    "menu_name": "管理员管理",
+    "children": [
+      {
+        "menu_name": "管理员列表",
+        "menu_url": "/adminList"
+      },
+      {
+        "menu_name": "管理员日志",
+        "menu_url": "/logSearch"
+      }
+    ]
+  },
+  {
+    "_id": "5c2eaee0423d462d7ee79489",
+    "menu_name": "店铺类别管理",
+    "children": [
+      {
+        "menu_name": "类别列表",
+        "menu_url": "/typeList"
+      }
+    ]
+  },
+  {
+    "_id": "5c2eaf1c423d462d7ee7948a",
+    "menu_name": "店铺管理",
+    "children": [
+      {
+        "menu_name": "店铺列表",
+        "menu_url": "/shopList"
+      }
+    ]
+  },
+  {
+    "_id": "5c2eb0a3423d462d7ee7948c",
+    "menu_name": "广告管理",
+    "children": [
+      {
+        "menu_name": "广告类别列表",
+        "menu_url": "/adList"
+      },
+      {
+        "menu_name": "广告植入",
+        "menu_url": "/adAdd"
+      }
+    ]
+  },
+  {
+    "_id": "5c2eb149423d462d7ee7948d",
+    "menu_name": "开发管理",
+    "children": [
+      {
+        "menu_name": "用户反馈",
+        "menu_url": "/userTalk"
+      },
+      {
+        "menu_name": "bug反馈",
+        "menu_url": "/bugTalk"
+      },
+      {
+        "menu_name": "进度查询",
+        "menu_url": "/workStep"
+      }
+    ]
+  },
+  {
+    "_id": "5c2ecd7e423d462d7ee79490",
+    "menu_name": "首页",
+    "menu_url": "/index"
+  }
+]

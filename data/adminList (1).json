@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "5c2b6031423d462d7ee79478",
+    "admin_name": "admin",
+    "admin_pwd": "123",
+    "admin_jsID": "5c2c1cc3423d462d7ee79479",
+    "admin_jsName": "管理员"
+  },
+  {
+    "_id": "5c2ed273423d462d7ee79492",
+    "admin_name": "scb",
+    "admin_pwd": "123",
+    "admin_jsID": "5c2dc4c6423d462d7ee79483",
+    "admin_jsName": "市场部"
+  }
+]

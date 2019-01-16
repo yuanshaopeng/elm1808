@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "5c2df7db423d462d7ee79483",
+    "admin_name": "admin",
+    "admin_tx": "http://localhost:3000/img/user.png",
+    "admin_ID": "5c2b6031423d462d7ee79478",
+    "admin_jsName": "管理员",
+    "admin_jsID": "5c2c1cc3423d462d7ee79479",
+    "admin_time": 1546479571856
+  },
+  {
+    "_id": "5c2ef9c6423d462d7ee79494",
+    "admin_name": "scb",
+    "admin_tx": "http://localhost:3000/img/user.png",
+    "admin_ID": "5c2ed273423d462d7ee79492",
+    "admin_jsName": "市场部",
+    "admin_jsID": "5c2dc4c6423d462d7ee79483",
+    "admin_time": 1546479571856
+  }
+]

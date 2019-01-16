@@ -1,0 +1,204 @@
+[
+  {
+    "_id": "5c3591fec460280a52df8370",
+    "shopName": "肯德基",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5",
+    "shopQsf": "20",
+    "shopPsf": "8"
+  },
+  {
+    "_id": "5c359215c460280a52df8371",
+    "shopName": "麦当劳",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c35921dc460280a52df8372",
+    "shopName": "德克士",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359228c460280a52df8373",
+    "shopName": "先",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c35922bc460280a52df8374",
+    "shopName": "核导弹",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359232c460280a52df8375",
+    "shopName": "收到后",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359236c460280a52df8376",
+    "shopName": "与",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359239c460280a52df8377",
+    "shopName": "大的",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c35923dc460280a52df8378",
+    "shopName": "大声点的",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c35923fc460280a52df8379",
+    "shopName": "撒",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359242c460280a52df837a",
+    "shopName": "撒的",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359245c460280a52df837b",
+    "shopName": "撒的多少啊",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359248c460280a52df837c",
+    "shopName": "撒大教堂",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c35924cc460280a52df837d",
+    "shopName": "哈哈",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c35924fc460280a52df837e",
+    "shopName": "合伙",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359252c460280a52df837f",
+    "shopName": "你的",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359257c460280a52df8380",
+    "shopName": "吗；是陈曦",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c35925bc460280a52df8381",
+    "shopName": "睡觉啊",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359271c460280a52df8382",
+    "shopName": "睡觉啊2",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  },
+  {
+    "_id": "5c359273c460280a52df8383",
+    "shopName": "睡觉啊22",
+    "shopLogo": "http://localhost:3000/upload/6.jpg",
+    "shopAddress": "1",
+    "shopTel": "22",
+    "shopTypeID": "5c3562f83d0d66f02ee12148",
+    "shopOpt": "1",
+    "shopRate": "4.5"
+  }
+]

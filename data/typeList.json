@@ -1,0 +1,128 @@
+[
+  {
+    "_id": "5c3562f83d0d66f02ee12148",
+    "typeName": "美食",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c3563103d0d66f02ee12149",
+    "typeName": "商超便利",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c3563193d0d66f02ee1214a",
+    "typeName": "送药上门",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c35632a3d0d66f02ee1214b",
+    "typeName": "水果",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c35632e3d0d66f02ee1214c",
+    "typeName": "鲜花",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c3563373d0d66f02ee1214d",
+    "typeName": "蜂鸟配送",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c35633f3d0d66f02ee1214e",
+    "typeName": "领红包",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c3563513d0d66f02ee1214f",
+    "typeName": "跑腿代购",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c3563593d0d66f02ee12150",
+    "typeName": "甜品饮品",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c3563603d0d66f02ee12151",
+    "typeName": "地方菜系",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c35636a3d0d66f02ee12152",
+    "typeName": "麻辣烫",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c35636f3d0d66f02ee12153",
+    "typeName": "烤肉",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c3563733d0d66f02ee12154",
+    "typeName": "火锅",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c35637a3d0d66f02ee12155",
+    "typeName": "spa",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c35638d3d0d66f02ee12156",
+    "typeName": "休闲娱乐",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c3563953d0d66f02ee12157",
+    "typeName": "养生医疗",
+    "typeLogo": "http://localhost:3000/upload/1.jpg",
+    "typeStart": "0",
+    "typeEnd": "23.983333333333334"
+  },
+  {
+    "_id": "5c3563d63d0d66f02ee12158",
+    "typeName": "早餐",
+    "typeLogo": "http://localhost:3000/upload/2.jpg",
+    "typeStart": "5",
+    "typeEnd": "10"
+  },
+  {
+    "_id": "5c3563ed3d0d66f02ee12159",
+    "typeName": "午餐",
+    "typeLogo": "http://localhost:3000/upload/2.jpg",
+    "typeStart": "10",
+    "typeEnd": "14"
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "_id": "5c2ed1d272e79145ef49ce46",
+    "menu_name": "开发管理",
+    "children": [
+      {
+        "menu_name": "用户反馈",
+        "menu_url": "/userTalk"
+      },
+      {
+        "menu_name": "bug反馈",
+        "menu_url": "/bugTalk"
+      },
+      {
+        "menu_name": "进度查询",
+        "menu_url": "/workStep"
+      }
+    ],
+    "menu_jsID": "5c2dc4aa423d462d7ee79482",
+    "menu_ID": "5c2eb149423d462d7ee7948d"
+  },
+  {
+    "_id": "5c2ed1d272e79145ef49ce47",
+    "menu_name": "首页",
+    "menu_url": "/index",
+    "menu_jsID": "5c2dc4aa423d462d7ee79482",
+    "menu_ID": "5c2ecd7e423d462d7ee79490"
+  },
+  {
+    "_id": "5c2ed1eb72e79145ef49ce49",
+    "menu_name": "店铺类别管理",
+    "children": [
+      {
+        "menu_name": "类别列表",
+        "menu_url": "/typeList"
+      }
+    ],
+    "menu_jsID": "5c2dc4c6423d462d7ee79483",
+    "menu_ID": "5c2eaee0423d462d7ee79489"
+  },
+  {
+    "_id": "5c2ed1eb72e79145ef49ce4a",
+    "menu_name": "店铺管理",
+    "children": [
+      {
+        "menu_name": "店铺列表",
+        "menu_url": "/shopList"
+      }
+    ],
+    "menu_jsID": "5c2dc4c6423d462d7ee79483",
+    "menu_ID": "5c2eaf1c423d462d7ee7948a"
+  },
+  {
+    "_id": "5c2ed1eb72e79145ef49ce4b",
+    "menu_name": "广告管理",
+    "children": [
+      {
+        "menu_name": "广告类别列表",
+        "menu_url": "/adList"
+      },
+      {
+        "menu_name": "广告植入",
+        "menu_url": "/adAdd"
+      }
+    ],
+    "menu_jsID": "5c2dc4c6423d462d7ee79483",
+    "menu_ID": "5c2eb0a3423d462d7ee7948c"
+  },
+  {
+    "_id": "5c2ed1eb72e79145ef49ce4c",
+    "menu_name": "首页",
+    "menu_url": "/index",
+    "menu_jsID": "5c2dc4c6423d462d7ee79483",
+    "menu_ID": "5c2ecd7e423d462d7ee79490"
+  },
+  {
+    "_id": "5c35a677acd7b20c85efb899",
+    "menu_name": "用户管理",
+    "children": [
+      {
+        "menu_name": "普通用户",
+        "menu_url": "/userList"
+      },
+      {
+        "menu_name": "vip用户",
+        "menu_url": "/vipList"
+      }
+    ],
+    "menu_jsID": "5c2c1cc3423d462d7ee79479",
+    "menu_ID": "5c2eada7423d462d7ee79486"
+  },
+  {
+    "_id": "5c35a677acd7b20c85efb89a",
+    "menu_name": "权限管理",
+    "children": [
+      {
+        "menu_name": "用户权限管理",
+        "menu_url": "/userPower"
+      },
+      {
+        "menu_name": "管理员权限",
+        "menu_url": "/adminPower"
+      }
+    ],
+    "menu_jsID": "5c2c1cc3423d462d7ee79479",
+    "menu_ID": "5c2eae1e423d462d7ee79487"
+  },
+  {
+    "_id": "5c35a677acd7b20c85efb89b",
+    "menu_name": "管理员管理",
+    "children": [
+      {
+        "menu_name": "管理员列表",
+        "menu_url": "/adminList"
+      },
+      {
+        "menu_name": "管理员日志",
+        "menu_url": "/logSearch"
+      }
+    ],
+    "menu_jsID": "5c2c1cc3423d462d7ee79479",
+    "menu_ID": "5c2eaed9423d462d7ee79488"
+  },
+  {
+    "_id": "5c35a677acd7b20c85efb89c",
+    "menu_name": "店铺类别管理",
+    "children": [
+      {
+        "menu_name": "类别列表",
+        "menu_url": "/typeList"
+      }
+    ],
+    "menu_jsID": "5c2c1cc3423d462d7ee79479",
+    "menu_ID": "5c2eaee0423d462d7ee79489"
+  },
+  {
+    "_id": "5c35a677acd7b20c85efb89d",
+    "menu_name": "店铺管理",
+    "children": [
+      {
+        "menu_name": "店铺列表",
+        "menu_url": "/shopList"
+      }
+    ],
+    "menu_jsID": "5c2c1cc3423d462d7ee79479",
+    "menu_ID": "5c2eaf1c423d462d7ee7948a"
+  },
+  {
+    "_id": "5c35a677acd7b20c85efb89e",
+    "menu_name": "广告管理",
+    "children": [
+      {
+        "menu_name": "广告类别列表",
+        "menu_url": "/adList"
+      },
+      {
+        "menu_name": "广告植入",
+        "menu_url": "/adAdd"
+      }
+    ],
+    "menu_jsID": "5c2c1cc3423d462d7ee79479",
+    "menu_ID": "5c2eb0a3423d462d7ee7948c"
+  },
+  {
+    "_id": "5c35a677acd7b20c85efb89f",
+    "menu_name": "首页",
+    "menu_url": "/index",
+    "menu_jsID": "5c2c1cc3423d462d7ee79479",
+    "menu_ID": "5c2ecd7e423d462d7ee79490"
+  }
+]

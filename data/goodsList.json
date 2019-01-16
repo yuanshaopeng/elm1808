@@ -1,0 +1,425 @@
+[
+  {
+    "_id": "5c36e4057bf9f522f4948df0",
+    "goodsLogo": "http://localhost:3000/upload/upload_ecea02d8f7f80c1625f9d216bed995a2.png",
+    "typeID": "5c36dd1ac77f7c1dcc1d8405",
+    "goodsName": "脆皮炸鸡",
+    "goodsPrice": "15",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4197bf9f522f4948df1",
+    "goodsLogo": "http://localhost:3000/upload/upload_ecea02d8f7f80c1625f9d216bed995a2.png",
+    "typeID": "5c36dd1ac77f7c1dcc1d8405",
+    "goodsName": "奥尔良炸鸡",
+    "goodsPrice": "18",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4257bf9f522f4948df2",
+    "goodsLogo": "http://localhost:3000/upload/upload_ecea02d8f7f80c1625f9d216bed995a2.png",
+    "typeID": "5c36dd1ac77f7c1dcc1d8405",
+    "goodsName": "香辣炸鸡",
+    "goodsPrice": "18",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e42b7bf9f522f4948df3",
+    "goodsLogo": "http://localhost:3000/upload/upload_ecea02d8f7f80c1625f9d216bed995a2.png",
+    "typeID": "5c36dd1ac77f7c1dcc1d8405",
+    "goodsName": "五香炸鸡",
+    "goodsPrice": "18",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4387bf9f522f4948df4",
+    "goodsLogo": "http://localhost:3000/upload/upload_ecea02d8f7f80c1625f9d216bed995a2.png",
+    "typeID": "5c36dd1ac77f7c1dcc1d8405",
+    "goodsName": "黄金脆皮鸡",
+    "goodsPrice": "24",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e45a7bf9f522f4948df5",
+    "goodsLogo": "http://localhost:3000/upload/upload_8f021bc76f2f077a24d3833720096844.jpg",
+    "typeID": "5c36dd21c77f7c1dcc1d8406",
+    "goodsName": "可乐小",
+    "goodsPrice": "12",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4607bf9f522f4948df6",
+    "goodsLogo": "http://localhost:3000/upload/upload_8f021bc76f2f077a24d3833720096844.jpg",
+    "typeID": "5c36dd21c77f7c1dcc1d8406",
+    "goodsName": "可乐大",
+    "goodsPrice": "15",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4657bf9f522f4948df7",
+    "goodsLogo": "http://localhost:3000/upload/upload_8f021bc76f2f077a24d3833720096844.jpg",
+    "typeID": "5c36dd21c77f7c1dcc1d8406",
+    "goodsName": "可乐中",
+    "goodsPrice": "13",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e46e7bf9f522f4948df8",
+    "goodsLogo": "http://localhost:3000/upload/upload_8f021bc76f2f077a24d3833720096844.jpg",
+    "typeID": "5c36dd21c77f7c1dcc1d8406",
+    "goodsName": "柠檬茶",
+    "goodsPrice": "13",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4767bf9f522f4948df9",
+    "goodsLogo": "http://localhost:3000/upload/upload_8f021bc76f2f077a24d3833720096844.jpg",
+    "typeID": "5c36dd21c77f7c1dcc1d8406",
+    "goodsName": "王老吉",
+    "goodsPrice": "8",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4987bf9f522f4948dfa",
+    "goodsLogo": "http://localhost:3000/upload/upload_7a1ba2a8af7764b830b40889fad8725a.jpg",
+    "typeID": "5c36dd27c77f7c1dcc1d8407",
+    "goodsName": "老北京鸡肉卷",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e49f7bf9f522f4948dfb",
+    "goodsLogo": "http://localhost:3000/upload/upload_7a1ba2a8af7764b830b40889fad8725a.jpg",
+    "typeID": "5c36dd27c77f7c1dcc1d8407",
+    "goodsName": "老南京鸡肉卷",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4a57bf9f522f4948dfc",
+    "goodsLogo": "http://localhost:3000/upload/upload_7a1ba2a8af7764b830b40889fad8725a.jpg",
+    "typeID": "5c36dd27c77f7c1dcc1d8407",
+    "goodsName": "老东京鸡肉卷",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4a87bf9f522f4948dfd",
+    "goodsLogo": "http://localhost:3000/upload/upload_7a1ba2a8af7764b830b40889fad8725a.jpg",
+    "typeID": "5c36dd27c77f7c1dcc1d8407",
+    "goodsName": "老西京鸡肉卷",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4c87bf9f522f4948dfe",
+    "goodsLogo": "http://localhost:3000/upload/upload_bc6f5001c26fdc1f72f4029c58a7f18d.jpg",
+    "typeID": "5c36dd2bc77f7c1dcc1d8408",
+    "goodsName": "香辣鸡腿堡",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4d07bf9f522f4948dff",
+    "goodsLogo": "http://localhost:3000/upload/upload_bc6f5001c26fdc1f72f4029c58a7f18d.jpg",
+    "typeID": "5c36dd2bc77f7c1dcc1d8408",
+    "goodsName": "麻辣鸡腿堡",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4d67bf9f522f4948e00",
+    "goodsLogo": "http://localhost:3000/upload/upload_bc6f5001c26fdc1f72f4029c58a7f18d.jpg",
+    "typeID": "5c36dd2bc77f7c1dcc1d8408",
+    "goodsName": "变态辣鸡腿堡",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4db7bf9f522f4948e01",
+    "goodsLogo": "http://localhost:3000/upload/upload_bc6f5001c26fdc1f72f4029c58a7f18d.jpg",
+    "typeID": "5c36dd2bc77f7c1dcc1d8408",
+    "goodsName": "脆皮辣鸡腿堡",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4e37bf9f522f4948e02",
+    "goodsLogo": "http://localhost:3000/upload/upload_bc6f5001c26fdc1f72f4029c58a7f18d.jpg",
+    "typeID": "5c36dd2bc77f7c1dcc1d8408",
+    "goodsName": "脆皮鲜虾堡",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4e97bf9f522f4948e03",
+    "goodsLogo": "http://localhost:3000/upload/upload_bc6f5001c26fdc1f72f4029c58a7f18d.jpg",
+    "typeID": "5c36dd2bc77f7c1dcc1d8408",
+    "goodsName": "牛肉堡",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4fa7bf9f522f4948e04",
+    "goodsLogo": "http://localhost:3000/upload/upload_bc6f5001c26fdc1f72f4029c58a7f18d.jpg",
+    "typeID": "5c36dd30c77f7c1dcc1d8409",
+    "goodsName": "蛋挞",
+    "goodsPrice": "5",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e4fe7bf9f522f4948e05",
+    "goodsLogo": "http://localhost:3000/upload/upload_bc6f5001c26fdc1f72f4029c58a7f18d.jpg",
+    "typeID": "5c36dd30c77f7c1dcc1d8409",
+    "goodsName": "布丁",
+    "goodsPrice": "5",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e5057bf9f522f4948e06",
+    "goodsLogo": "http://localhost:3000/upload/upload_bc6f5001c26fdc1f72f4029c58a7f18d.jpg",
+    "typeID": "5c36dd30c77f7c1dcc1d8409",
+    "goodsName": "提拉米苏",
+    "goodsPrice": "5",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e5247bf9f522f4948e07",
+    "goodsLogo": "http://localhost:3000/upload/upload_4adcce29767d25c87b9f00ff2af867ca.jpg",
+    "typeID": "5c36dd37c77f7c1dcc1d840a",
+    "goodsName": "小薯条",
+    "goodsPrice": "5",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e52a7bf9f522f4948e08",
+    "goodsLogo": "http://localhost:3000/upload/upload_4adcce29767d25c87b9f00ff2af867ca.jpg",
+    "typeID": "5c36dd37c77f7c1dcc1d840a",
+    "goodsName": "大薯条",
+    "goodsPrice": "10",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e52e7bf9f522f4948e09",
+    "goodsLogo": "http://localhost:3000/upload/upload_4adcce29767d25c87b9f00ff2af867ca.jpg",
+    "typeID": "5c36dd37c77f7c1dcc1d840a",
+    "goodsName": "中薯条",
+    "goodsPrice": "8",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e55e7bf9f522f4948e0a",
+    "goodsLogo": "http://localhost:3000/upload/upload_2494d2d705b892783c2a5095b83c02e5.jpg",
+    "typeID": "5c36dd3dc77f7c1dcc1d840b",
+    "goodsName": "可乐+鸡腿堡+薯条",
+    "goodsPrice": "28",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e57d7bf9f522f4948e0b",
+    "goodsLogo": "http://localhost:3000/upload/upload_2494d2d705b892783c2a5095b83c02e5.jpg",
+    "typeID": "5c36dd42c77f7c1dcc1d840c",
+    "goodsName": "可乐+鳕鱼堡+薯条",
+    "goodsPrice": "32",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e58b7bf9f522f4948e0c",
+    "goodsLogo": "http://localhost:3000/upload/upload_2494d2d705b892783c2a5095b83c02e5.jpg",
+    "typeID": "5c36dd49c77f7c1dcc1d840d",
+    "goodsName": "可乐+牛肉堡+薯条",
+    "goodsPrice": "35",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e5a47bf9f522f4948e0d",
+    "goodsLogo": "http://localhost:3000/upload/upload_ce426b9fa16fc6ccf2024a3a61377018.jpg",
+    "typeID": "5c36dd50c77f7c1dcc1d840e",
+    "goodsName": "可乐+薯条",
+    "goodsPrice": "18",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e5b17bf9f522f4948e0e",
+    "goodsLogo": "http://localhost:3000/upload/upload_ce426b9fa16fc6ccf2024a3a61377018.jpg",
+    "typeID": "5c36dd50c77f7c1dcc1d840e",
+    "goodsName": "可乐+蛋挞",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e5bb7bf9f522f4948e0f",
+    "goodsLogo": "http://localhost:3000/upload/upload_ce426b9fa16fc6ccf2024a3a61377018.jpg",
+    "typeID": "5c36dd50c77f7c1dcc1d840e",
+    "goodsName": "可乐+烤肠",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e5de7bf9f522f4948e10",
+    "goodsLogo": "http://localhost:3000/upload/upload_569455cfe45d2e39c652aedd6bcf727c.jpg",
+    "typeID": "5c36dd55c77f7c1dcc1d840f",
+    "goodsName": "两根烤肠",
+    "goodsPrice": "8",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e5e87bf9f522f4948e11",
+    "goodsLogo": "http://localhost:3000/upload/upload_569455cfe45d2e39c652aedd6bcf727c.jpg",
+    "typeID": "5c36dd55c77f7c1dcc1d840f",
+    "goodsName": "两根薯条",
+    "goodsPrice": "2",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e5ff7bf9f522f4948e12",
+    "goodsLogo": "http://localhost:3000/upload/upload_19b9bfd1cc66339e684f7e73a3e50495.jpg",
+    "typeID": "5c36dd5bc77f7c1dcc1d8410",
+    "goodsName": "大桶",
+    "goodsPrice": "100",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e6047bf9f522f4948e13",
+    "goodsLogo": "http://localhost:3000/upload/upload_19b9bfd1cc66339e684f7e73a3e50495.jpg",
+    "typeID": "5c36dd5bc77f7c1dcc1d8410",
+    "goodsName": "中桶",
+    "goodsPrice": "90",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e60a7bf9f522f4948e14",
+    "goodsLogo": "http://localhost:3000/upload/upload_19b9bfd1cc66339e684f7e73a3e50495.jpg",
+    "typeID": "5c36dd5bc77f7c1dcc1d8410",
+    "goodsName": "小桶",
+    "goodsPrice": "80",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e6177bf9f522f4948e15",
+    "goodsLogo": "http://localhost:3000/upload/upload_19b9bfd1cc66339e684f7e73a3e50495.jpg",
+    "typeID": "5c36dd75c77f7c1dcc1d8411",
+    "goodsName": "勇闯天涯",
+    "goodsPrice": "8",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e61c7bf9f522f4948e16",
+    "goodsLogo": "http://localhost:3000/upload/upload_19b9bfd1cc66339e684f7e73a3e50495.jpg",
+    "typeID": "5c36dd75c77f7c1dcc1d8411",
+    "goodsName": "雪花",
+    "goodsPrice": "8",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e63e7bf9f522f4948e17",
+    "goodsLogo": "http://localhost:3000/upload/upload_e52840d4e87ca683a2c82b1ddbdaf55d.jpg",
+    "typeID": "5c36dd7bc77f7c1dcc1d8412",
+    "goodsName": "张钰",
+    "goodsPrice": "35",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e64a7bf9f522f4948e18",
+    "goodsLogo": "http://localhost:3000/upload/upload_e52840d4e87ca683a2c82b1ddbdaf55d.jpg",
+    "typeID": "5c36dd7bc77f7c1dcc1d8412",
+    "goodsName": "八二拉菲",
+    "goodsPrice": "1000",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e6557bf9f522f4948e19",
+    "goodsLogo": "http://localhost:3000/upload/upload_e52840d4e87ca683a2c82b1ddbdaf55d.jpg",
+    "typeID": "5c36dd7bc77f7c1dcc1d8412",
+    "goodsName": "长城",
+    "goodsPrice": "50",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e6687bf9f522f4948e1a",
+    "goodsLogo": "http://localhost:3000/upload/upload_e52840d4e87ca683a2c82b1ddbdaf55d.jpg",
+    "typeID": "5c36dd83c77f7c1dcc1d8413",
+    "goodsName": "盖饭",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e6747bf9f522f4948e1b",
+    "goodsLogo": "http://localhost:3000/upload/upload_e52840d4e87ca683a2c82b1ddbdaf55d.jpg",
+    "typeID": "5c36dd83c77f7c1dcc1d8413",
+    "goodsName": "面条",
+    "goodsPrice": "20",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e6917bf9f522f4948e1c",
+    "goodsLogo": "http://localhost:3000/upload/upload_e52840d4e87ca683a2c82b1ddbdaf55d.jpg",
+    "typeID": "5c36dd88c77f7c1dcc1d8414",
+    "goodsName": "小冰激凌",
+    "goodsPrice": "5",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e69a7bf9f522f4948e1d",
+    "goodsLogo": "http://localhost:3000/upload/upload_e52840d4e87ca683a2c82b1ddbdaf55d.jpg",
+    "typeID": "5c36dd88c77f7c1dcc1d8414",
+    "goodsName": "中冰激凌",
+    "goodsPrice": "10",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  },
+  {
+    "_id": "5c36e69e7bf9f522f4948e1e",
+    "goodsLogo": "http://localhost:3000/upload/upload_e52840d4e87ca683a2c82b1ddbdaf55d.jpg",
+    "typeID": "5c36dd88c77f7c1dcc1d8414",
+    "goodsName": "大冰激凌",
+    "goodsPrice": "15",
+    "goodsRate": "4.3",
+    "shopID": "5c3591fec460280a52df8370"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "5c36dd1ac77f7c1dcc1d8405",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "炸鸡"
+  },
+  {
+    "_id": "5c36dd21c77f7c1dcc1d8406",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "饮品"
+  },
+  {
+    "_id": "5c36dd27c77f7c1dcc1d8407",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "鸡肉卷"
+  },
+  {
+    "_id": "5c36dd2bc77f7c1dcc1d8408",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "汉堡"
+  },
+  {
+    "_id": "5c36dd30c77f7c1dcc1d8409",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "甜品"
+  },
+  {
+    "_id": "5c36dd37c77f7c1dcc1d840a",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "薯条"
+  },
+  {
+    "_id": "5c36dd3dc77f7c1dcc1d840b",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "套餐一"
+  },
+  {
+    "_id": "5c36dd42c77f7c1dcc1d840c",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "套餐二"
+  },
+  {
+    "_id": "5c36dd49c77f7c1dcc1d840d",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "儿童套餐"
+  },
+  {
+    "_id": "5c36dd50c77f7c1dcc1d840e",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "程序员套餐"
+  },
+  {
+    "_id": "5c36dd55c77f7c1dcc1d840f",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "单身套餐"
+  },
+  {
+    "_id": "5c36dd5bc77f7c1dcc1d8410",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "桶"
+  },
+  {
+    "_id": "5c36dd75c77f7c1dcc1d8411",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "啤酒"
+  },
+  {
+    "_id": "5c36dd7bc77f7c1dcc1d8412",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "红酒"
+  },
+  {
+    "_id": "5c36dd83c77f7c1dcc1d8413",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "午餐"
+  },
+  {
+    "_id": "5c36dd88c77f7c1dcc1d8414",
+    "shopID": "5c3591fec460280a52df8370",
+    "typeName": "冰激凌"
+  }
+]

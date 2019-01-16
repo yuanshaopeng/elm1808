@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "5c3ea1f14bdb7972b004ffff",
+    "userID": "5c3e7feadc016a05cfb419cf",
+    "shopID": "5c3591fec460280a52df8370",
+    "goodsID": "5c36e4057bf9f522f4948df0",
+    "typeID": "5c36dd1ac77f7c1dcc1d8405",
+    "count": "6"
+  },
+  {
+    "_id": "5c3ea55174868073c757f73c",
+    "userID": "5c3e7feadc016a05cfb419cf",
+    "shopID": "5c3591fec460280a52df8370",
+    "goodsID": "5c36e4197bf9f522f4948df1",
+    "typeID": "5c36dd1ac77f7c1dcc1d8405",
+    "count": "1"
+  },
+  {
+    "_id": "5c3ea55274868073c757f73d",
+    "userID": "5c3e7feadc016a05cfb419cf",
+    "shopID": "5c3591fec460280a52df8370",
+    "goodsID": "5c36e4257bf9f522f4948df2",
+    "typeID": "5c36dd1ac77f7c1dcc1d8405",
+    "count": "1"
+  },
+  {
+    "_id": "5c3ea55e74868073c757f73e",
+    "userID": "5c3e7feadc016a05cfb419cf",
+    "shopID": "5c3591fec460280a52df8370",
+    "goodsID": "5c36e4607bf9f522f4948df6",
+    "typeID": "5c36dd21c77f7c1dcc1d8406",
+    "count": "1"
+  },
+  {
+    "_id": "5c3ea5af74868073c757f73f",
+    "userID": "5c3e7feadc016a05cfb419cf",
+    "shopID": "5c3591fec460280a52df8370",
+    "goodsID": "5c36e55e7bf9f522f4948e0a",
+    "typeID": "5c36dd3dc77f7c1dcc1d840b",
+    "count": "1"
+  },
+  {
+    "_id": "5c3ea5b074868073c757f740",
+    "userID": "5c3e7feadc016a05cfb419cf",
+    "shopID": "5c3591fec460280a52df8370",
+    "goodsID": "5c36e57d7bf9f522f4948e0b",
+    "typeID": "5c36dd42c77f7c1dcc1d840c",
+    "count": "1"
+  }
+]
